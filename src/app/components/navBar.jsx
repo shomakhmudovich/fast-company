@@ -4,22 +4,19 @@ const NavBar = () => {
     return (
         <ul className="nav">
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                    Active
+                <a className="nav-link active" aria-current="page" href="/">
+                    Main
                 </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">
-                    Link
+                <a className="nav-link" href="/login">
+                    Login
                 </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">
-                    Link
+                <a className="nav-link" href="/users">
+                    Users
                 </a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
             </li>
         </ul>
     );
